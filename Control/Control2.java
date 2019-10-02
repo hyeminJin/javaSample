@@ -7,12 +7,12 @@ public class Control2{
          *어떤수 n이 다른 소수로 나뉘어 지지 않는 다면 소수다.
          *
          */
-        int [] numbers = new int[100];
+        int [] numbers = new int[100];      
         int count = 0;
-        boolean isPrime;
+        boolean isPrime;    
 
-        for (int n=2; n<=100; n++){
-            isPrime = true;
+        for (int n=2; n<=100; n++){             
+            isPrime = true;                     
             for (int i=0; i<count; i++){
                 if (n % numbers[i] == 0){
                     isPrime = false;
